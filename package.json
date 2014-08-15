@@ -1,0 +1,17 @@
+{
+  "name": "quote-stream",
+  "version": "2.0.1",
+  "description": "A node.js application that pushes stock quotes in JSON over web-sockets.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.8.4",
+    "socket.io": "~0.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
