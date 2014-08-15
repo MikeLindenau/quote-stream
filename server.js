@@ -48,7 +48,7 @@ server.listen(PORT);
 var ticker = "";
 app.get('/:ticker', function(req, res) {
 	ticker = req.params.ticker;
-	res.sendfile(__dirname + '/index.html');
+	res.sendFile(__dirname + '/index.html');
 });
 
 io.sockets.on('connection', function(socket) {
